@@ -1,0 +1,1 @@
+{"layers": [{"layer": "Conv2D", "args": {"filters": 32, "kernel_size": 3, "activation": "relu"}}, {"layer": "Flatten", "args": {}}, {"layer": "Dense", "args": {"units": 128, "activation": "relu"}}, {"layer": "Dense", "args": {"units": 10, "activation": "softmax"}}], "loss_object": "SparseCategoricalCrossentropy", "optimizer": "Adam"}
